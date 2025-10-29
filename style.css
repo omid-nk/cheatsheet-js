@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Roboto";
+  background: #221f1f;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 300px;
+  background: #151515;
+  padding: 35px;
+  text-align: center;
+  border-radius: 16px;
+  border: 1px solid #797979;
+  color: white;
+  transition: all 0.6s ease;
+  box-shadow: 0 0 200px #ffffff94;
+}
+.wrapper:has(#input-element:focus) {
+  box-shadow: 0 0 120px -20px #ffffff94, 0 0 60px -30px #005eff87;
+}
+
+#title {
+  font-size: 52px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.34);
+}
+
+#para {
+  font-size: 18px;
+  letter-spacing: 2.5px;
+  margin-top: 4px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 16px;
+  width: 100%;
+}
+
+#input-element {
+  padding: 10px;
+  color: white;
+  background: #151515;
+  border: 1px solid #ffffff80;
+  border-radius: 4px;
+  outline: none;
+  transition: all 0.4s ease;
+}
+#input-element:focus {
+  border: 1px solid #ffffff;
+  padding: 15px 10px;
+}
+
+.wrapper-input {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.label-input {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  background-color: #151515;
+  display: flex;
+  padding: 0 6px;
+  top: -10px;
+  left: 12px;
+}
+
+#submit-element {
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  background-color: royalblue;
+  box-shadow: 4px 6px 12px -4px #00000080 inset;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+#submit-element:hover {
+  box-shadow: 6px 6px 4px -4px #00000040 inset;
+}
