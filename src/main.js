@@ -46,16 +46,16 @@ function syncTheme() {
 
 // home btn
 homeBtn.addEventListener("click", () => {
-  window.location.replace("/");
+  window.location.replace("");
 });
 
 // links
 htmlCheatSheet.addEventListener("click", () => {
-  window.location.replace("/html-cheatsheet.html");
+  window.location.replace("html-cheatsheet.html");
 });
 cssCheatSheet.addEventListener("click", () => {
-  window.location.replace("/css-cheatsheet.html");
+  window.location.replace("css-cheatsheet.html");
 });
 jsCheatSheet.addEventListener("click", () => {
-  window.location.replace("/js-cheatsheet.html");
+  window.location.replace("js-cheatsheet.html");
 });
