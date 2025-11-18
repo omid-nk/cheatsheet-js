@@ -1,6 +1,9 @@
 const homeBtn = document.querySelector(".home");
 const themeBtn = document.querySelector(".theme");
 const themeIcon = document.querySelector(".theme-Icon");
+const htmlCheatSheet = document.querySelector(".html");
+const cssCheatSheet = document.querySelector(".css");
+const jsCheatSheet = document.querySelector(".js");
 
 // check if user first time login set default theme in localStorage
 (function checkTheme() {
@@ -43,5 +46,16 @@ function syncTheme() {
 
 // home btn
 homeBtn.addEventListener("click", () => {
-  window.location.replace("index.html");
+  window.location.replace("/");
+});
+
+// links
+htmlCheatSheet.addEventListener("click", () => {
+  window.location.replace("/html-cheatsheet.html");
+});
+cssCheatSheet.addEventListener("click", () => {
+  window.location.replace("/css-cheatsheet.html");
+});
+jsCheatSheet.addEventListener("click", () => {
+  window.location.replace("/js-cheatsheet.html");
 });
