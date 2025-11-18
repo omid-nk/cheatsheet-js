@@ -1,0 +1,27 @@
+{
+  "name": "cheatsheet",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/omid-nk/cheatsheet-js#readme",
+  "bugs": {
+    "url": "https://github.com/omid-nk/cheatsheet-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omid-nk/cheatsheet-js.git"
+  },
+  "license": "MIT",
+  "author": "Omidnk",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -D dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vite": "^7.2.2"
+  }
+}
