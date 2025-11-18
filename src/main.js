@@ -51,11 +51,11 @@ homeBtn.addEventListener("click", () => {
 
 // links
 htmlCheatSheet.addEventListener("click", () => {
-  window.location.replace("html-cheatsheet.html");
+  window.location.replace("./html.html");
 });
 cssCheatSheet.addEventListener("click", () => {
-  window.location.replace("css-cheatsheet.html");
+  window.location.replace("./css.html");
 });
 jsCheatSheet.addEventListener("click", () => {
-  window.location.replace("js-cheatsheet.html");
+  window.location.replace("./js.html");
 });
